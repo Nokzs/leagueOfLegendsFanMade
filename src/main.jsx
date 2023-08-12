@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import FrontPage from './Componenents/FrontPage'
+import {FrontPage} from './Components/Route/FrontPage/element/FrontPage'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,11 +10,11 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <FrontPage />,
+    element: <FrontPage/>,
     
   },
   {
-    path:"/champions",
+    path:"/champions/:id",
     
   },
   {
