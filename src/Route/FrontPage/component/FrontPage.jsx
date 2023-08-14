@@ -4,7 +4,7 @@ import { useState } from "react"
 import { VideoBackground } from "./VideoBackground/VideoBackground"
 import { HomePage } from "./HomePage/HomePage"
 import { CSSTransition } from 'react-transition-group';
-export const FrontPage = ()=>{
+export const FrontPage = ()=> {
 
     const [isStarted,setIsStarted] = useState(false)
     
@@ -14,7 +14,9 @@ export const FrontPage = ()=>{
             <VideoBackground start={setIsStarted} />
         </CSSTransition>
         
-        <CSSTransition in={isStarted} timeout={300}><HomePage/></CSSTransition>
+        <CSSTransition in={isStarted} timeout={300}>
+            <HomePage/>
+        </CSSTransition>
         </>
     )
 }

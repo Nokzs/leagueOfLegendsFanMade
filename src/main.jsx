@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {FrontPage} from './Route/FrontPage/component/FrontPage'
+import { FrontPage } from './Route/FrontPage/component/FrontPage'
+import { HomePage } from './Route/FrontPage/component/HomePage/HomePage'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path:'/test',
-    element: <Roles/>,
+    element: <HomePage/>,
   }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,7 +1,7 @@
 
 import "./HomePage.css"
 import { useState } from "react"
-
+import { Roles } from "./Roles/Roles"
 import { CSSTransition } from 'react-transition-group';
 
 export const HomePage =()=>{
@@ -9,9 +9,7 @@ export const HomePage =()=>{
     
     return(
         <>
-        <Roles>
-        </Roles>
-        
+        <Roles/>
         </>
     )
 }
