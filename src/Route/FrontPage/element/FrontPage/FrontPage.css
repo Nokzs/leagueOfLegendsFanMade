@@ -25,7 +25,7 @@
 
 }
 .buttonLink:has(a){
-   display: flex;
+    display: flex;
     opacity: 0.6;
     font-size: 22px;
     padding: .15rem;
@@ -46,19 +46,24 @@
 }
 a.active{
     color: red;
-    
 }
-a{
+a {
     background: black;
     flex-grow: 1;
     text-align: center;
     border-radius: 20px;
 }
 
-.trailerContainer{
+.ButtonContainer{
     flex: 1 1 auto;
     display: flex;
     align-items: center;
     justify-content: center;
    
+}
+
+button {
+    width:100px;
+    height:50px;
+    background: red;
 }
