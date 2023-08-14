@@ -10,7 +10,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <FrontPage/>,
-    
   },
   {
     path:"/champions/:id",
@@ -18,6 +17,10 @@ const router = createBrowserRouter([
   },
   {
     path:'/build',
+  },
+  {
+    path:'/test',
+    element: <Roles/>,
   }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

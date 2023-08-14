@@ -3,11 +3,11 @@ import "./FrontPage.css"
 import { useRef } from "react"
 
 
-export const FrontPage = ()=>{
+export const FrontPage = () => {
    
     return(
         <>
-        
+            
         </>
     )
 }
