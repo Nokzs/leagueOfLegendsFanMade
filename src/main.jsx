@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
-import {FrontPage} from './Route/FrontPage/element/FrontPage/FrontPage'
+import {FrontPage} from './Route/FrontPage/component/FrontPage'
 import {
   createBrowserRouter,
   RouterProvider,
