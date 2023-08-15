@@ -10,9 +10,10 @@ export const HomePage =()=>{
     const [isStarted,setIsStarted] = useState(false);
     
     return (
-        <>
-        <NavBar/>
-        <Roles/>
-        </>
+        <div className="container">
+
+            <NavBar/>
+            <Roles/>
+        </div>
     )
 }

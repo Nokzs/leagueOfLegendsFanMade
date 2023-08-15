@@ -16,6 +16,6 @@ export const TransitionProvider = ()=>{
             </div>
             </CSSTransition>
         </SwitchTransition>
-       
-    </div>)
+    </div>
+    )
 }
