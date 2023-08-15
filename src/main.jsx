@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import './index.css'
+import { HomePage } from './Route/FrontPage/component/HomePage/HomePage';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,7 +22,8 @@ const router = createBrowserRouter([
         path:"/champions/:id"
       },
       {
-        path:'/build'
+        path:'/build',
+        element:<HomePage/>
       }
     ]
   }
