@@ -1,18 +1,18 @@
 
 
-// eslint-disable-next-line react/prop-types
-export const VideoBackground = ({start})=>{
+
+export const VideoBackground = ({setIsStarted})=>{
     return(
     <>
         <video autoPlay muted className="background-video">
             <source src="public/VideoBackground/VideoBackground.mp4" type="video/mp4" />
         </video>
         <div className="background">
-            <div className="ButtonContainer" onClick={()=>start(true)}>
+            <div className="ButtonContainer" onClick={()=>setIsStarted((isStarted)=>!isStarted)}>
                 <button>
                     START
                 </button>
-            </div>    
+            </div>   
         </div>
     </>
 )}
