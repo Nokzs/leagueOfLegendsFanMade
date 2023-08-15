@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom"
 
 
-// eslint-disable-next-line react/prop-types
-export const VideoBackground = ({start})=>{
+
+export const VideoBackground = ({setIsStarted})=>{
     return(
-        <>
+        <div>
     <video autoPlay muted className="background-video">
         <source src="public/VideoBackground/VideoBackground.mp4" type="video/mp4" />
     </video>
@@ -27,12 +27,12 @@ export const VideoBackground = ({start})=>{
             </li>
         </ul>
     </nav>
-    <div className="ButtonContainer" onClick={()=>start(true)}>
+    <div className="ButtonContainer" onClick={()=>setIsStarted((isStarted)=>!isStarted)}>
         <button>
             START
         </button>
     </div>    
 </div>
-</>
+</div>
 )
 }

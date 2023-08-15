@@ -1,23 +1,29 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {FrontPage} from './Route/FrontPage/component/FrontPage'
+import {TransitionProvider} from './Route/TransitionProvider/TransitionProvider'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 import './index.css'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <FrontPage/>,
-    
-  },
-  {
-    path:"/champions/:id",
-    
-  },
-  {
-    path:'/build',
+    element:<TransitionProvider/>,
+    children:[
+      {
+        path:"/",
+        element:<FrontPage/>
+      },
+      {
+        path:"/champions/:id"
+      },
+      {
+        path:'/build'
+      }
+    ]
   }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
