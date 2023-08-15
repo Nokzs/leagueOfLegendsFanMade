@@ -1,0 +1,39 @@
+.navLink{
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    right: 0;
+    position: fixed;
+    justify-content: flex-end;
+
+}
+.buttonLink:has(a){
+    display: flex;
+    opacity: 0.6;
+    font-size: 22px;
+    padding: .15rem;
+    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    border-radius: 20px;
+    width: 6.5em;
+}
+.buttonLink:has(a.active){
+    
+    opacity: 1;
+}
+.listlink{
+    display: flex;
+    gap:30px;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 20px;
+    flex-wrap: nowrap;
+}
+a.active{
+    color: red;
+}
+a {
+    background: black;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 20px;
+}

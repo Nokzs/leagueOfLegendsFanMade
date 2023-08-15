@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom"
 import "./Roles.css"
 import { useRef } from "react"
 
@@ -7,9 +6,16 @@ export const Roles = () => {
    
     return(
         <>
-            <div>
-
-            </div>
+            <section className="roles">
+                <div className="rolesBox"></div>
+                <div className="listBox">
+                    <ul>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </>
     )
 }
