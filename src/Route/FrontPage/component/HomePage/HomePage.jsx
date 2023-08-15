@@ -1,13 +1,14 @@
 
-import './homePage.css'
+import "./HomePage.css"
 
-export const HomePage =({ref})=>{
+import { Roles } from "./Roles/Roles"
+
+
+export const HomePage =()=>{
+   
     return(
-    
-       <div className='Home'>
-            {"blabla"}
-        <div className='wrapper' ref={ref}> 
-        </div>
-        </div>
+        <>
+        <Roles/>
+        </>
     )
 }

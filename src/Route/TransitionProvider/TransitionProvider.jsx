@@ -11,8 +11,9 @@ export const TransitionProvider = ()=>{
     <SwitchTransition>
         <CSSTransition key={location.pathname}
         timeout={300} classNames={"page"}>
-        <div className="page"></div>
+        <div className="page">
             {child}
+        </div>
         </CSSTransition>
     </SwitchTransition>
        
