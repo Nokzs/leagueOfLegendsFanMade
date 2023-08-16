@@ -1,0 +1,14 @@
+.page-enter{
+   transform: translateX(200%);
+}
+.page-enter-active{
+    transform: translateX(0);
+    transition: transform 1s;
+}
+.page-exit{
+    transform: translateX(0);
+}
+.page-exit-active{
+    transform: translateX(-200%);
+    transition: transform 1s;
+}
