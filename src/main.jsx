@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {FrontPage} from './Route/FrontPage/component/FrontPage'
 import {TransitionProvider} from './Route/TransitionProvider/TransitionProvider'
+import { Champions } from './Route/champions/champions';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
         element:<FrontPage/>
       },
       {
-        path:"/champions/:id"
+        path:"/champions/:id",
+        element:<Champions/>
       },
       {
         path:'/build',
