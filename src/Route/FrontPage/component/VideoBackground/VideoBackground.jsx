@@ -1,5 +1,5 @@
 
-
+import "./VideoBackground.css"
 
 export const VideoBackground = ({setIsStarted})=>{
     return(
@@ -13,7 +13,7 @@ export const VideoBackground = ({setIsStarted})=>{
                 sessionStorage.setItem("isStarted",true)
                 }
             }>
-                <button>
+                <button className="start-button">
                     START
                 </button>
             </div>   
