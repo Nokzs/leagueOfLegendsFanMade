@@ -3,7 +3,6 @@ import { useRef } from "react"
 import { NavLink } from "react-router-dom"
 import { Svg } from "../../../svgs.jsx";
 
-
 export const NavBar = () => {
    
     return(

@@ -6,12 +6,12 @@ import { CSSTransition } from 'react-transition-group';
 import { HomePage } from './HomePage/HomePage';
 export const FrontPage = ()=>{
 
-    const [isStarted,setIsStarted] = useState(false)
+    const [isStarted,setIsStarted] = useState((!!sessionStorage.getItem("isStarted")) || false)
 
-    console.log(isStarted)
+
     return(
         <>
-            <CSSTransition unmountOnExit in={!isStarted} timeout={2000} classNames="fade">
+            <CSSTransition unmountOnExit in={!isStarted} timeout={10} classNames="fade">
                 <VideoBackground setIsStarted={setIsStarted}  />
             </CSSTransition>
             <CSSTransition unmountOnExit in={isStarted} timeout={2000} classNames="fadeHomePage">
