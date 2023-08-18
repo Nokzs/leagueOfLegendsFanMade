@@ -17,7 +17,6 @@ export const FrontPage = ()=>{
             <CSSTransition unmountOnExit in={isStarted} timeout={2000} classNames="fadeHomePage">
                 <HomePage/>
             </CSSTransition>
-        
         </>
     )
 }
