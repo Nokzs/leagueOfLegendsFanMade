@@ -11,26 +11,7 @@
     flex-direction: column;
 }
 
-.fadeHomePage-enter {
-   clip-path: circle(0);
-  }
-  .fadeHomePage-enter-active {
-    clip-path: circle(100%);
-    transition: clip-path 3s;
-  }
-  .fadeHomePage-enter-done{
-    clip-path: circle(100%);
-  }
-  .fadeHomePage-exit {
-    opacity: 1;
-  }
-  .fadeHomePage-exit-active {
-    opacity: 0;
-    transition: opacity 2000ms;
-  }
-  .fadeHomePage-exit-done{
-    opacity: 0;
-  }
+
 .wrapper{
     position: absolute;
     top: 50%;

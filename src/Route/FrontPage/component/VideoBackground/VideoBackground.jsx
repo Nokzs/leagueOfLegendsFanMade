@@ -1,5 +1,5 @@
 
-
+import "./VideoBackground.css"
 
 export const VideoBackground = ({setIsStarted})=>{
     return(
@@ -14,6 +14,7 @@ export const VideoBackground = ({setIsStarted})=>{
                 }
             }>
                 <button color="white">
+                <button className="start-button">
                     START
                 </button>
             </div>   

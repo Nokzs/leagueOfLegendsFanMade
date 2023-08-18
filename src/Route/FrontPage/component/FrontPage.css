@@ -1,48 +1,45 @@
 
-.background{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw; 
+
+.fade-enter {
+  opacity: 0;
 }
-.background-video{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+.fade-enter-done{
+  opacity: 1;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}
+.fade-exit-done{
+  opacity: 0;
 }
 
-.ButtonContainer{
-    flex: 1 1 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}
 
-button {
-    width:100px;
-    height:50px;   
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #1a1a1a;
-    cursor: pointer;
-    transition: border-color 0.25s;
-  }
-  button:hover {
-    border-color: #646cff;
-  }
-  button:focus,
-  button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-  }
-  
+
+.fadeHomePage-enter {
+  clip-path: circle(0);
+ }
+ .fadeHomePage-enter-active {
+   clip-path: circle(100%);
+   transition: clip-path 3s;
+ }
+ .fadeHomePage-enter-done{
+   clip-path: circle(100%);
+ }
+ .fadeHomePage-exit {
+   opacity: 1;
+ }
+ .fadeHomePage-exit-active {
+   opacity: 0;
+   transition: opacity 2000ms;
+ }
+ .fadeHomePage-exit-done{
+   opacity: 0;
+ }

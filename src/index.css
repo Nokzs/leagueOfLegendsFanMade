@@ -10,11 +10,11 @@
 }
 @font-face {
   font-family: Spiegel;
-  src: url("../public/fonts/Spiegel-Regular.woff");
+  src: url("/fonts/Spiegel-Regular.woff");
 }
 @font-face {
   font-family: Spiegel;
-  src: url("../public/fonts/Spiegel-Bold.woff");
+  src: url("/fonts/Spiegel-Bold.woff");
   font-weight: bold;
 }
 
