@@ -1,0 +1,37 @@
+
+
+.slider-container{
+    margin:0 60px;
+    width:100%;
+    max-width: 1000px;
+    
+    border: 2px solid red;
+    background:red;
+   
+}
+.champ-picture-list::-webkit-scrollbar{
+    display: none;
+}
+
+.champ-picture-list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    border:2px solid red;
+    gap:20px;
+    overflow:scroll;
+    scrollbar-width: none;
+}
+
+.champ-picture-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.champ-picture{
+    width:auto;
+    max-width:80px;
+    min-width:50px;
+    object-fit: cover;
+}

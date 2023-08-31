@@ -13,6 +13,7 @@ export const VideoBackground = ({setIsStarted})=>{
                 sessionStorage.setItem("isStarted",true)
                 }
             }>
+                
                 <button className="start-button">
                     START
                 </button>
