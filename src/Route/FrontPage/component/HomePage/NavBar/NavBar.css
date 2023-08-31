@@ -19,7 +19,7 @@
     list-style-type: none;
 }
 
-.buttonLink:has(a){
+/* .buttonLink:has(a){
     display: flex;
     opacity: 0.6;
     font-size: 22px;
@@ -28,9 +28,6 @@
     border-radius: 20px;
     width: 6.5em;
 }
-.buttonLink:has(a.active){
-    opacity: 1;
-}
 
 a.active{
     color: rgb(69, 222, 181);
@@ -38,6 +35,57 @@ a.active{
 a {
     background: black;
     flex-grow: 1;
-    text-align: center;
     border-radius: 20px;
+} */
+
+.buttonLink {
+    display: flex;
+    
+    position: relative;
 }
+
+
+.buttonA {
+    flex-grow: 1;
+    text-align: center;
+    padding:5% 20%;
+    border-radius: 30% 20% / 10% 20%;
+    color:white;
+    font-size: 24px;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: content-box;
+    background-size: 200% 100%;
+}
+
+@keyframes fill {
+    to {
+      background-position: -100% 0;
+    }
+  }
+/* .buttonA::after {
+    content:"";
+    position: absolute;
+    height:3px;
+    left: 0;
+    bottom: -10%;
+    right: 0;
+    width:0%;
+
+    background:rgb(69, 222, 181);
+    margin: 0 auto;
+
+    transition: 0.5s;
+} */
+
+
+.buttonA:hover {
+    background-image:linear-gradient(104deg,hsla(164, 70%, 57%,0) .9%,rgb(119, 247, 228) 2.4%,hsla(164, 70%, 57%,.5) 5.8%,hsla(164, 70%, 57%,.1) 93%,hsla(164, 70%, 57%,.7) 96%),linear-gradient(183deg,rgba(130,255,173,0),rgba(119, 247, 228,.3) 7.9%,hsla(164, 70%, 57%,0) 15%);
+
+    animation: fill 1s forwards; 
+
+}
+
+.buttonA.active{
+}
+

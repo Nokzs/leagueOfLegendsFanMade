@@ -14,16 +14,16 @@ export const NavBar = () => {
             
                 <li>
                     <div className="buttonLink" >
-                        <NavLink className={({isActive,isPending})=>isPending ? "pending":isActive? "active":""}to={"/"}>Accueil</NavLink>
+                        <NavLink className={({isActive,isPending})=>"buttonA "+(isPending ? "pending":isActive? "active":"")}to={"/"}>Accueil</NavLink>
                     </div>  
                 </li>
                 <li>
                     <div className="buttonLink">
-                        <NavLink className={({isActive,isPending})=>isPending ? "pending":isActive? "active":""}to={"/champions/Aatrox"}>Champions</NavLink>
+                        <NavLink className={({isActive,isPending})=>"buttonA "+(isPending ? "pending":isActive? "active":"")}to={"/champions/Aatrox"}>Champions</NavLink>
                     </div>
                 </li>
                 <li>
-                    <div className="buttonLink"><NavLink to={"/build"}>Simulateur</NavLink></div>
+                    <div className="buttonLink"><NavLink className={"buttonA"} to={"/build"}>Simulateur</NavLink></div>
                 </li>
             </ul>
         </nav>
