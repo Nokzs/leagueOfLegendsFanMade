@@ -11,7 +11,7 @@ export const Slider = () =>{
    
     useEffect(()=>{
         fetch("http://ddragon.leagueoflegends.com/cdn/13.16.1/data/fr_FR/champion.json").then((res)=>res.json().then((data)=>{
-            console.log(data)
+            console.log(data.data)
             const fetchPromises = Object.keys(data.data).map(champion => fetch(`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion}_0.jpg`).then(response => response.blob().then(((blob)=>{
             return{name:champion,url:URL.createObjectURL(blob),type:data.data[champion].tags }
             }))));
@@ -24,20 +24,24 @@ export const Slider = () =>{
 
    
     return(
-        <div style={{marginBottom:'50px'}}> 
-        {isLoading && <p>chargement</p>} 
-        {!isLoading &&
-        <div className="slider-container">
-            <ul className="champ-picture-list">
-            {Champions.map(Champions=><li key={Champions.name}>
-       <div className="champ-picture-container">
-      <img className="champ-picture" onClick={()=>ChangeURL(Champions.name)} src={Champions.url}/>
-        <p>{Champions.name}</p> 
+        <div> 
+            {isLoading && <p>chargement</p>} 
+            {!isLoading &&
+                <div className="slider-container">
+                    <ul className="champ-picture-list">
+                        {Champions.map(Champions=> 
+                            <li key={Champions.name}>
+                                <div className="champ-picture-container">
+                                    <img className="champ-picture" onClick={()=>ChangeURL(Champions.name)} src={Champions.url}/>
+                                    <p>{Champions.name}</p>
+                                </div>
+                            </li>
+                            )
+                        }
+                    </ul>
+                </div>
+            }
         </div>
-        </li>)}
-        </ul>
-      </div>}
-      </div>
 
     )
 }

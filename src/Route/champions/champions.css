@@ -1,4 +1,11 @@
-
+.champion-page {
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    max-width: 100%;
+    width:100vw;
+    height:100vh;
+}
 
 .slider-container{
     margin:0 60px;

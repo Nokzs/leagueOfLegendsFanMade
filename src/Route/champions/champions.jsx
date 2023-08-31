@@ -12,17 +12,16 @@ export const Champions = ()=>{
     
 
    
- 
-
-   
-           
     return(
-       <> 
-      <NavBar/>
-        <div style={{backgroundColor:'white',width:'100vw',height:'100vh',display:"flex",justifyContent:'center',alignItems:'center',flexDirection:'column'}}> 
+      <div className="champion-page"> 
+        <NavBar/>
+        <div style={{marginTop:'300px',display:"flex",flexDirection:'column',justifyContent:'center',alignItems:'center'}}>{/* permet de centré les truc */}
           <Slider/>
           <Outlet/>
         </div>
-    </>
+        
+      </div>
+
+     
     )
 }

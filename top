@@ -1,0 +1,172 @@
+[33mcommit b41884caf07a3bc540c4c969bfab25d74be2aa82[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Thu Aug 31 17:19:33 2023 +0200
+
+    modif navbar
+
+[33mcommit 7e7a1fdc98268125d7693a20e84882be7068d7cf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Thu Aug 24 18:42:08 2023 +0200
+
+    fin composant role
+
+[33mcommit 6c34433ef85712f62bc53589f125f6c807e97b5f[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Sat Aug 19 00:39:43 2023 +0200
+
+    amélioration roles
+
+[33mcommit b79970be53068629b77b7dc60e248504552c43e7[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Fri Aug 18 00:35:08 2023 +0200
+
+    amélioration roles
+
+[33mcommit c7f5096569ca13bf691e3bf7559b8650487faa26[m
+Merge: 2bd1455 d4560ad
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Thu Aug 17 15:34:32 2023 +0200
+
+    Merge branch 'main' of https://github.com/Nokzs/leagueOfLegendsFanMade
+
+[33mcommit 2bd14554b9fbd9be18e0c3a036621b6bd67b3e1c[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Thu Aug 17 15:34:28 2023 +0200
+
+    organisation css
+
+[33mcommit d4560ad3f0fd64c3af8b7814a06e3ace6f4bba9b[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Thu Aug 17 15:17:24 2023 +0200
+
+    transition entre les pages
+
+[33mcommit 750f0be2e2aecf59064ee10bcc2e7ab4c72358ce[m
+Merge: 004cc81 8abeab3
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Thu Aug 17 02:04:54 2023 +0200
+
+    roles
+
+[33mcommit 004cc813f1bc696d218fb7d6628d5932b1af1b19[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Wed Aug 16 23:47:23 2023 +0200
+
+    amélioration roles et svg
+
+[33mcommit 8abeab3932067aacd9c93c44131eb6b909e1c696[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Wed Aug 16 22:56:01 2023 +0200
+
+    gestion de la mémoire au lancement
+
+[33mcommit 004c7a84a047eed6485961b22de19c5f5c2935ef[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Tue Aug 15 22:52:31 2023 +0200
+
+    dodo
+
+[33mcommit 3e11a8ab9fd3c796abc594a7ddcb4a12bcb6fe60[m
+Merge: d3084fd 92ead4d
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Tue Aug 15 22:50:04 2023 +0200
+
+    Merge branch 'main' of https://github.com/Nokzs/leagueOfLegendsFanMade
+
+[33mcommit d3084fd1ad91fe4c865ed105afd519194b0c0446[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Tue Aug 15 22:49:02 2023 +0200
+
+    modif
+
+[33mcommit 773718752695836fcffe7acda24cb7d84f895006[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Tue Aug 15 22:22:39 2023 +0200
+
+    merge
+
+[33mcommit 3cd2a0fd6346f2a6fe6d6560d8c42f087f88a88e[m
+Merge: a4e4a15 9d07208
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Tue Aug 15 22:21:45 2023 +0200
+
+    Merge remote-tracking branch 'refs/remotes/origin/main'
+
+[33mcommit a4e4a15c02475091507ffdd6fcdf452fe9886aad[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Tue Aug 15 22:11:42 2023 +0200
+
+    avancement homepage
+
+[33mcommit 92ead4df8cf71d258ce2be610b6b452432575969[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Tue Aug 15 20:45:37 2023 +0200
+
+    reparation
+
+[33mcommit 9d07208e552944f28cebb802906ef8491cc92b17[m
+Merge: 7f8a649 09c833c
+Author: alexis <alexischapusot@gmail.com>
+Date:   Tue Aug 15 19:47:38 2023 +0200
+
+    résolution conflit
+
+[33mcommit 7f8a649a3e659a94a2a67c9324d32fd3671cadcd[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Tue Aug 15 19:34:50 2023 +0200
+
+    transition entre les pages
+
+[33mcommit 09c833cc48002f8beb2e1fd158de9d6206ff8dad[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Mon Aug 14 22:36:01 2023 +0200
+
+    resolution chemin
+
+[33mcommit a64e0654489022ce1e2b974c8c1cd323236a9e19[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Mon Aug 14 22:08:57 2023 +0200
+
+    reorganisation
+
+[33mcommit 1f62cc08b41f17de18e333de59216830d602c8d8[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Mon Aug 14 21:52:59 2023 +0200
+
+    réorganisation dosSIer
+
+[33mcommit f43182455cdb2bfb4ca4971662d432d107af7809[m
+Author: Vopexx <neil.hadibi1@etu.univ-lorraine.fr>
+Date:   Mon Aug 14 17:54:36 2023 +0200
+
+    Ajout Roles
+
+[33mcommit 7a55c3a85245ad4ef49270b343f2e65ee23ecb63[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Mon Aug 14 16:01:28 2023 +0200
+
+    ajout
+
+[33mcommit caa8b691aeb676a9612aae03ff515e04ead6ceb6[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Sun Aug 13 20:26:01 2023 +0200
+
+    mis en place du background vidéo --A_Completer:trouvé une bonne video
+
+[33mcommit f6c2683f10ddfa0301cb9f67bc4aa5a74add1601[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Sat Aug 12 10:14:03 2023 +0200
+
+    mis en plus de la navBar --àcompleter:style
+
+[33mcommit 43fcd472be10a899763293b3993ef9e7b6f5be88[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Wed Aug 9 16:50:33 2023 +0200
+
+    mis en place du router V0.1
+
+[33mcommit 88f2783acd91ee5c8b2876b3a829a46b3b7b9a23[m
+Author: alexis <alexischapusot@gmail.com>
+Date:   Wed Aug 9 16:03:05 2023 +0200
+
+    first commit
