@@ -42,7 +42,7 @@ function wrapPromise(promise) {
 const info = wrapPromise(fetch("https://jsonplaceholder.typicode.com/todos").then(data=>data.json()));
 
 
-const Test =()=>{
+const Test = () => {
   
   const data = info.read();
   const response = data();
@@ -50,11 +50,9 @@ const Test =()=>{
   
 }
 
-export const ChampionDetails = ()=>{
-    const {championsId} = useParams()
-    const location = useLocation()
-   
-    
+export const ChampionDetails = ()=> {
+    const {championsId} = useParams();
+    const location = useLocation();
 
     return(
      <>   

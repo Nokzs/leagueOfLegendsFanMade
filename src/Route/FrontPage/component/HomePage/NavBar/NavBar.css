@@ -55,12 +55,13 @@ a {
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-weight: bold;
     box-sizing: content-box;
-    background-size: 200% 100%;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
 }
 
 @keyframes fill {
     to {
-      background-position: -100% 0;
+        background-size: 100% 100%;
     }
   }
 /* .buttonA::after {

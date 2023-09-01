@@ -30,9 +30,6 @@
    clip-path: circle(100%);
    transition: clip-path 3s;
  }
- .fadeHomePage-enter-done{
-   clip-path: circle(100%);
- }
  .fadeHomePage-exit {
    opacity: 1;
  }

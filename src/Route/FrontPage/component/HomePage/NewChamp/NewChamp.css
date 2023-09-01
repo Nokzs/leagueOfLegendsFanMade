@@ -1,0 +1,15 @@
+
+
+
+.lastchamp {
+ 
+    margin-top: 300px; /*temp  transition : left 600ms cubic-bezier(0.215, 0.61, 0.355, 1) 0s*/
+
+    width: 100%;
+    height:auto;
+    padding-bottom: 50%;
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+} 
