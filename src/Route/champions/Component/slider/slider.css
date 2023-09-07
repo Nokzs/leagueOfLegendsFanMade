@@ -1,0 +1,12 @@
+
+.champ-picture-list li img{
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.champ-picture-list{
+    scroll-behavior: smooth;
+}
